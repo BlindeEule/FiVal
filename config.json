@@ -1,0 +1,17 @@
+{   "unique_name": "<YOUR_NAME>",
+    "data_path": "<YOUR_PATH>",
+    "out_path": "<YOUR_PATH>",
+    "self_path": "SELF-FEIL/SELF.tsv",
+    "feil_path": "SELF-FEIL/FEIL.tsv",
+
+    "number_of_samples": null,
+    "text_column": "<YOUR_COLUMN_NAME", 
+    "lemma_column": null,
+
+    "run_parallel": false,
+    "batch_size": null,
+    "fast_scores": false,
+
+    "write_to_file": true,
+    "verbose": false
+}
