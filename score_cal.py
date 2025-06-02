@@ -307,7 +307,7 @@ if __name__=='__main__':
         lemma_column = 'lemmatized'
         df = preprocess_transcripts(df, text_column)
         trankit_pipe = Pipeline('finnish')
-        text_filtered_list = df["transcript"]
+        text_filtered_list = df[text_column]
 
         if run_parallel:
             df = parallel_lemmatizer(text_filtered_list, lemma_column, num_workers=(cpu_count()-1), batch_size=batch_size)
